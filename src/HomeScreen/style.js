@@ -3,43 +3,44 @@ const styles = StyleSheet.create({
   container: {
     height: "100%",
     width: "100%",
-    backgroundColor: "#EAEAEA"
+    backgroundColor: "#EEF6F8",
   },
   containItem: {
     height: 100,
     width: "90%",
     flexDirection: "row",
+    marginTop: 20,
     marginBottom: 10,
     marginHorizontal: "5%",
     borderRadius: 20,
     backgroundColor: "#FFFFFF",
-    borderWidth: 0.5
+    borderWidth: 0.5,
   },
   containImageItem: {
     height: "100%",
     width: "30%",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   },
   imageItem: {
     height: 80,
     width: 80,
-    borderRadius: 10
+    borderRadius: 10,
   },
   containNameItem: {
     height: "100%",
     width: "50%",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   nameItem: {
     fontSize: 18,
-    fontWeight: 500
+    fontWeight: 500,
   },
   containLikeItem: {
     height: "100%",
     width: "20%",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
   },
   buttonLikeItem: {
     height: 50,
@@ -85,16 +86,29 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  test: {
+  containCategory: {
     width: "100%",
     height: "5%",
     backgroundColor: "#EEF6F8",
+    alignItems: "center",
+    flexDirection: "row",
+  },
+  categoryHeader: {
+    marginLeft: 10,
+    width: "25%",
+    fontSize: 15,
+    fontWeight: 800,
+  },
+  scrollViewCategory: {
+    height: "100%",
+    width: "100%",
   },
   button: {
     width: 100,
+    height: 35,
     borderRadius: 50,
     borderWidth: 1,
-    marginLeft: 30,
+    marginRight: 30,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -107,7 +121,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#EEF6F8",
     justifyContent: "space-evenly",
   },
-
   listItems: {
     height: "90%",
     width: "100%",
